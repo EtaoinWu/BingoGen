@@ -62,6 +62,8 @@
 
     let bans = [];
 
+    let pred_length = 0;
+
     // Utility Function
     const transpose = m => m[0].map((x, i) => m.map(x => x[i]));
 
@@ -83,6 +85,7 @@
       board = board.flat();
       let output = JSON.stringify(board.map(x => ({ name: x.name.trim() })));
       output_str = output;
+      pred_length = x;
       upupdate(); 
     }
 
@@ -185,7 +188,6 @@
 
     function seedify() {
       ranjs.core.seed(seed);
-      console.log("seed: " + seed);
     }
 
     function reseed() {
@@ -200,6 +202,7 @@
       bias = 0.6;
       ban_ch = false;
       bans = [];
+      pred_length = 0;
       upupdate();
     }
 
@@ -255,6 +258,11 @@
       }
       document.getElementById("seed").value = seed;
       document.getElementById("output").innerHTML = output_str;
+      if (pred_length == 0) {
+        document.getElementById("prediction").innerHTML = "";
+      } else {
+        document.getElementById("prediction").innerHTML = "Length prediction: " + pred_length + " magical units.";
+      }
     }
 
     function downupdate() {
@@ -312,6 +320,7 @@
       <button onclick="resetx()" type="button" class="secondary outline">Reset</button>
       <label for="output">Output</label>
       <textarea name="output" id="output" cols="30" rows="3">Output Here</textarea>
+      <div id="prediction"></div>
     </form>
     <footer>
       <hr>
