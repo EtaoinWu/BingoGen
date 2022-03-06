@@ -225,7 +225,7 @@
 
     function gen_copy() {
       gen();
-      copyTextToClipboard(document.getElementById("output").innerHTML);
+      copyTextToClipboard(document.getElementById("output").value);
     }
 
     function bftest() {
@@ -257,7 +257,7 @@
         document.getElementById("bias").value = bias;
       }
       document.getElementById("seed").value = seed;
-      document.getElementById("output").innerHTML = output_str;
+      document.getElementById("output").value = output_str;
       if (pred_length == 0) {
         document.getElementById("prediction").innerHTML = "";
       } else {
