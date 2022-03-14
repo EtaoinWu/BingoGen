@@ -126,6 +126,7 @@
       for (let cat of my_gencats) {
         let cat_candidates = candidates.filter(x => x.gencat.includes(cat));
         let current = gen_dist(cat_candidates, bias_func());
+        candidates = candidates.filter(x => x !== current);
         board.push(current);
         candidates = remove_conflict(candidates, current.conflict);
         for (let sad of current.sad) {
