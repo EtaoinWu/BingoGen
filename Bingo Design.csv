@@ -1,0 +1,155 @@
+Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
+	Pull 1 fire alarm		1	1	smp			smp		
+	Create a paradox	whi	1	1	smp			smp		
+	Collect 1 fire extinguisher		1	1	smp			smp		
+	Finish retro (click the alarm)	ret	1	1	smp			smp		
+	Get a diet soda		1	1	smp			smp		
+										
+	1 Egg + 1 Chess		1	2	1p1			1p1		
+	1 Chess + 1 Constellation		1	3	1p1			1p1		
+	1 Constellation + 1 Blueprint		1	3	1p1			1p1		
+	1 Blueprint + 1 Egg		1	2	1p1			1p1		
+										
+	All the extinguishers in any level	whi	1	5	1level			an1		
+	All the alarms in any level	whi	1	5	1level			an1		
+	Please recycle: Put a soda can in the wrong place		1	1	sodaachv					
+	Environment saved!: Place a soda can in a recycling bin		1	1	sodaachv					
+										
+	Cubism: Blueprint #2 (end)	cub	1	4.5	bp,coll2	sble1				
+	Whitespace: 1 Blueprint	whi	1	2.6	bp,coll2	sble2			wb	
+	Cubism: Any blueprint	cub	1	6.5	bp,coll2	sble1				
+	Optical: Blueprint #1 (exit sign ramp)	opt	1	4	bp,coll2	sble2				
+	Blackout: Blueprint	bla	1	15	bp,coll2	sble1				
+										
+	Cubism: Red Queen	cub	1	5	coll,coll2	sche1				cqk
+	Cubism: Red King	cub	1	5	coll,coll2	sche1				cqk
+	Whitespace: Blue Pawn (Jungles' Bistro)	whi	1	2.5	coll,coll2	sche1				
+	Whitespace: Blue Rook (vending machine)	whi	1	1.7	coll,coll2	sche1				
+										
+	Cubism Egg	cub	1	2	egg	segg				
+	Optical Egg #1 (hallway)	opt	1	3	egg	segg				
+	Optical Egg #2 (exit sign ramp)	opt	1	4	egg	segg				
+	Whitespace Egg :pain:	whi	1	4	egg	segg				
+										
+	Blackout: Cheese Constellation	bla	1	3	cons	scon				
+	Cubism: Cup Constellation	cub	1	4	cons	scon				
+	Whitespace: Piano Constellation	whi	1	7	cons	scon				
+	Dollhouse: Chair Constellation	dol	1	4	cons	scon				
+										
+	Clone: Any chess piece	clo	1	7	coll,coll2	sche				clochess
+	Clone: Blue Pawn	clo	1	7	coll,coll2	sche				clochess
+	Clone: Red Knight	clo	1	10	coll,coll2	sche				clochess
+	Induction: Blue Pawn	ind	1	4.5	coll,coll2	sche				
+	Whitespace: Red Pawn (end)	whi	1	4.5	coll,coll2	sche				
+	A king & a queen	cub	1	6	coll,coll2					cqk
+										
+	Whitespace: 2 Blueprints	whi	1	4.5	bp,coll2	sble2				
+	Labyrinth: 1 Blueprint	lab,longlab	1	18	bp,coll2	sble1				
+	Labyrinth: 2 Blueprints	lab,longlab	1	22	bp,coll2	sble2				
+	Dollhouse: 1 Blueprint	dol	1	10	bp,coll2	sble1				
+										
+	A duck (Cubism)	cub	1	6	fun					
+	A banana (Clone)	clo,longclo	1	11	fun					
+	A Spintop (Whitespace)	whi,longwhi	1	10	fun					
+	A shiny banana (Whitespace)	whi	1	6	fun					
+	Play the piano (Dollhouse)	dol,longdol	1	14	fun					
+										
+	Wake Up: Entirety of Retrospect cutscene		1	20	torture					
+	Vaguely activated achievement: Who knows?		1	12	torture					
+										
+	Complete Induction	ind	1	9	1level	mwarp	find			
+	Complete Optical	opt	1	6	1level	mwarp	fopt			
+	Complete Cubism	cub	1	9	1level	mwarp	fcub			
+	Complete Blackout	bla	1	15	1level	mwarp	fbla			
+	Complete Dollhouse	dol	1	6	1level	mwarp	fdol			
+	Complete Labyrinth	lab	1	6	1level	mwarp	flab			
+	Complete Whitespace	whi	1	4	1level	mwarp	fwhi			
+										
+	Complete Induction Glitchlessly	longind	1	11	1level	gless	find			
+	Complete Optical Glitchlessly	longopt	1	13	1level	gless	fopt			
+	Complete Cubism Glitchlessly	longcub	1	11	1level	gless	fcub			
+	Complete Blackout Glitchlessly	longbla	1	17	1level	gless	fbla			
+	Complete Clone Glitchlessly	longclo	1	14	1level	gless	fclo			
+	Complete Dollhouse Glitchlessly	longdol	1	14	1level	gless	fdol			
+	Complete Labyrinth Glitchlessly	longlab	1	24	1level	gless	flab			
+	Complete Whitespace Glitchlessly	longwhi	1	30	1level	gless	fwhi			
+										
+	Cubism: Blueprint #1 (ventilation)	cub	1	6	bp,coll2	sble1				
+	Induction: Blueprint	ind,longind	1	10	bp,coll2	sble2				
+	Dollhouse: 2 Blueprints	dol,longdol	1	14	bp,coll2	sble1				
+	Optical: Blueprint #2 (moon room)	opt,longopt	1	14	bp,coll2	sble2				
+										
+										
+	Why are you like this?: Clone an item too many times	clo	1	10	sachv1,torture	achv2				
+	Sugar crash: Break a soda can		1	2	sodaachv	achv2				
+	Please use other door: Wrong door in Optical	opt	1	8	sachv2	achv2				
+	Son of man: Drop an apple on your head	clo	1	6	sachv1	achv2				
+										
+	:) smily face cursor in Clone	clo	1	6	sachv2	achv3				
+	Soda Connaisseur: Drink all sodas		1	4	sodaachv	achv3				
+	Get a bonus soda		1	5	sodaachv	achv3				
+	Expert fire alarmist: Pull enough fire alarms	x	1	8	sachv1	achv3				
+										
+	Optical: Table Constellation	opt	1	10	coll,coll2	scon2				
+	Labyrinth: Light Projector Constellation	lab,longlab	1	27	coll,coll2	scon2				
+	Clone: Soda Machine Constellation	clo	1	13	coll,coll2	scon2				
+										
+	3 Constellations		1	5	cnta	scon2	cntcon			
+	15 fire extinguishers		1	5	cnta		cntext			
+	12 fire alarms		1	4	cnta		cntalm			
+	5 chess pieces		1	12	cnta		cntche			
+ch	4 mini challenges in challenge mode	ind	1	10	cnta	sch	cntch			
+										
+	Blackout: Both Blue Pawns	bla,longbla	1	18	longchess	sche2				
+	Blackout: Blue Pawn #1 (blind maze)	bla,longbla	1	13	longchess	sche2				
+	Blackout: Blue Pawn #2 (window)	bla,longbla	1	18	longchess	sche2				
+	Optical: Red Rook	opt	1	8	coll,coll2	sche2				
+	Labyrinth: Red Pawn	lab	1	14	longchess	sche2				
+	Labyrinth: Blue King	lab,longlab	1	24	longchess	sche2				
+										
+	Clone Egg (end)	clo,longclo	1	15	coll,coll2	segg2				
+	Labyrinth Egg #2 (HALL 5)	longlab	1	20	coll,coll2	segg2				
+	Labyrinth Egg #3 (dropdown)	longlab	1	20	coll,coll2	segg2				
+	Optical: Blue Knight	opt,longopt	1	12	coll,coll2	sche2				
+	Dollhouse: Blue King	dol	1	10	coll,coll2	sche2				
+										
+	All minor collectibles in Optical	opt	1	10	1level		amc			
+	All minor collectibles in Cubism	cub	1	10	1level		amc			
+	All minor collectibles in Clone	clo	1	10	1level		amc			
+	All minor collectibles in Labyrinth	lab	1	10	1level		amc			
+										
+	20 fire alarms		1	15	cntb		cntalm			
+	25 fire extinguishers		1	15	cntb		cntext			
+	4 constellations		1	9	cntb		cntcon			
+	5 Blueprints		1	9	cntb		cntble			
+	7 chess pieces		1	9	cntb		cntche			
+ch	9 mini challenges in challenge mode		1	14	cntb		cntch			
+	All Collectibles in Dollhouse	dol,longdol	1	15	coll,coll2					
+										
+	5 Pawns		1	10	speche		speche			
+	5 Blue Pieces		1	10	speche		speche			
+	5 Red Pieces		1	10	speche		speche			
+	1 Piece of each type (KQRNp)		1	15	speche		speche			
+										
+	Bring the :pain: egg to the end of Whitespace		1	16	torture					
+ch	Challenge Mode Blackout		1	22	torture					
+	Make your screen completely black in a level		1	5	sachv1		trueblack			
+	Keep falling (sound) for 20 seconds		1	4	sachv2		trueblack			
+										
+	Jumpless: Any level without jumping (not retro)		1	6	torture	catext				
+	Back%: Any level but you can only walk backwards (not retro)		1	10	torture	catext				
+	Crab%: Any level but you can only walk left or right (not retro)		1	10	torture	catext				
+	Mouse%: Any level with only a mouse (not retro)		1	12	torture	catext				
+										
+	Jumpless Glitchless: Any level (not retro)		1	20	torture	catext				
+	Back% Glitchless: Any level (not retro)		1	15	torture	catext				
+	Crab% Glitchless: Any level (not retro)		1	15	torture	catext				
+										
+	All Easter Eggs in Optical & Labyrinth	longlab,longopt	1	30	nm					
+	Superluminal: Beat the game in under 30 minutes		1	45	nm					
+	52 fire alarms		1	30	nm		cntalm			
+	69 fire extinguishers		1	30	nm		cntext			
+	All 7 constellations		1	30	nm		cntcon			
+	Avocado (in Dollhouse secret room)		1	40	nm		cntble			
+ch	25 mini challenges in challenge mode		1	65	nm		cntch			
+	Kasparov: Make the last move		1.5	40	nm		cntche			
