@@ -15,38 +15,54 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Please recycle: Put a soda can in the wrong place		1	1	sodaachv					
 	Environment saved!: Place a soda can in a recycling bin		1	1	sodaachv					
 										
-	Cubism: Blueprint #2 (end)	cub	1	4.5	bp,coll2	sble1				
-	Whitespace: 1 Blueprint	whi	1	2.6	bp,coll2	sble2			wb	
-	Cubism: Any blueprint	cub	1	6.5	bp,coll2	sble1				
-	Optical: Blueprint #1 (exit sign ramp)	opt	1	4	bp,coll2	sble2				
-	Blackout: Blueprint	bla	1	15	bp,coll2	sble1				
-										
+	Induction: Blue Pawn	ind	1	4.5	coll,coll2	sche				
+	Optical: Blue Knight	opt,longopt	1	12	coll,coll2	sche2				
+	Optical: Red Rook	opt	1	8	coll,coll2	sche2				
 	Cubism: Red Queen	cub	1	5	coll,coll2	sche1				cqk
 	Cubism: Red King	cub	1	5	coll,coll2	sche1				cqk
+	Blackout: Both Blue Pawns	bla,longbla	1	18	longchess	sche2			c_bla1	c_bla2
+	Blackout: Blue Pawn #1 (blind maze)	bla,longbla	1	13	longchess	sche2			c_bla1	
+	Blackout: Blue Pawn #2 (window)	bla,longbla	1	18	longchess	sche2				c_bla2
+	Clone: Any chess piece	clo	1	7	coll,coll2	sche			c_clo1	c_clo2
+	Clone: Blue Pawn	clo	1	7	coll,coll2	sche			c_clo1	
+	Clone: Red Knight	clo	1	10	coll,coll2	sche				c_clo2
+	Dollhouse: Blue King	dol	1	10	coll,coll2	sche2				
+	Labyrinth: Red Pawn	lab	1	14	longchess	sche2				
+	Labyrinth: Blue King	lab,longlab	1	24	longchess	sche2				
 	Whitespace: Blue Pawn (Jungles' Bistro)	whi	1	2.5	coll,coll2	sche1				
 	Whitespace: Blue Rook (vending machine)	whi	1	1.7	coll,coll2	sche1				
-										
-	Cubism Egg	cub	1	2	egg	segg				
-	Optical Egg #1 (hallway)	opt	1	3	egg	segg				
-	Optical Egg #2 (exit sign ramp)	opt	1	4	egg	segg				
-	Whitespace Egg :pain:	whi	1	4	egg	segg				
-										
-	Blackout: Cheese Constellation	bla	1	3	cons	scon				
-	Cubism: Cup Constellation	cub	1	4	cons	scon				
-	Whitespace: Piano Constellation	whi	1	7	cons	scon				
-	Dollhouse: Chair Constellation	dol	1	4	cons	scon				
-										
-	Clone: Any chess piece	clo	1	7	coll,coll2	sche				clochess
-	Clone: Blue Pawn	clo	1	7	coll,coll2	sche				clochess
-	Clone: Red Knight	clo	1	10	coll,coll2	sche				clochess
-	Induction: Blue Pawn	ind	1	4.5	coll,coll2	sche				
 	Whitespace: Red Pawn (end)	whi	1	4.5	coll,coll2	sche				
 	A king & a queen	cub	1	6	coll,coll2					cqk
 										
-	Whitespace: 2 Blueprints	whi	1	4.5	bp,coll2	sble2				
-	Labyrinth: 1 Blueprint	lab,longlab	1	18	bp,coll2	sble1				
-	Labyrinth: 2 Blueprints	lab,longlab	1	22	bp,coll2	sble2				
-	Dollhouse: 1 Blueprint	dol	1	10	bp,coll2	sble1				
+	Induction: Blueprint	ind,longind	1	10	bp,coll2	sble2				
+	Optical: Blueprint #1 (exit sign ramp)	opt	1	4	bp,coll2	sble2				
+	Optical: Blueprint #2 (moon room)	opt,longopt	1	14	bp,coll2	sble2				
+	Cubism: Any blueprint	cub	1	6.5	bp,coll2	sble1			bp_cub1	bp_cub2
+	Cubism: Blueprint #1 (ventilation)	cub	1	6	bp,coll2	sble1			bp_cub1	
+	Cubism: Blueprint #2 (end)	cub	1	4.5	bp,coll2	sble1				bp_cub2
+	Blackout: Blueprint	bla	1	15	bp,coll2	sble1				
+	Dollhouse: 1 Blueprint	dol	1	10	bp,coll2	sble1				bp_dol
+	Dollhouse: 2 Blueprints	dol,longdol	1	14	bp,coll2	sble1				bp_dol
+	Labyrinth: 1 Blueprint	lab,longlab	1	18	bp,coll2	sble1			bp_lab	
+	Labyrinth: 2 Blueprints	lab,longlab	1	22	bp,coll2	sble2			bp_lab	
+	Whitespace: 1 Blueprint	whi	1	2.6	bp,coll2	sble2				bp_whi
+	Whitespace: 2 Blueprints	whi	1	4.5	bp,coll2	sble2				bp_whi
+										
+	Optical Egg #1 (hallway)	opt	1	3	egg	segg				
+	Optical Egg #2 (exit sign ramp)	opt	1	4	egg	segg				
+	Cubism Egg	cub	1	2	egg	segg				
+	Clone Egg (end)	clo,longclo	1	15	coll,coll2	segg2				
+	Labyrinth Egg #2 (HALL 5)	longlab	1	20	coll,coll2	segg2				
+	Labyrinth Egg #3 (dropdown)	longlab	1	20	coll,coll2	segg2				
+	Whitespace Egg :pain:	whi	1	4	egg	segg				
+										
+	Optical: Table Constellation	opt	1	10	cons,coll2	scon2				
+	Cubism: Cup Constellation	cub	1	4	cons	scon				
+	Blackout: Cheese Constellation	bla	1	3	cons	scon				
+	Clone: Soda Machine Constellation	clo	1	13	cons,coll2	scon2				
+	Dollhouse: Chair Constellation	dol	1	4	cons	scon				
+	Labyrinth: Light Projector Constellation	lab,longlab	1	27	cons,coll2	scon2				
+	Whitespace: Piano Constellation	whi	1	7	cons	scon				
 										
 	A duck (Cubism)	cub	1	6	fun					
 	A banana (Clone)	clo,longclo	1	11	fun					
@@ -74,12 +90,6 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Complete Labyrinth Glitchlessly	longlab	1	24	1level	gless	flab			
 	Complete Whitespace Glitchlessly	longwhi	1	30	1level	gless	fwhi			
 										
-	Cubism: Blueprint #1 (ventilation)	cub	1	6	bp,coll2	sble1				
-	Induction: Blueprint	ind,longind	1	10	bp,coll2	sble2				
-	Dollhouse: 2 Blueprints	dol,longdol	1	14	bp,coll2	sble1				
-	Optical: Blueprint #2 (moon room)	opt,longopt	1	14	bp,coll2	sble2				
-										
-										
 	Why are you like this?: Clone an item too many times	clo	1	10	sachv1,torture	achv2				
 	Sugar crash: Break a soda can		1	2	sodaachv	achv2				
 	Please use other door: Wrong door in Optical	opt	1	8	sachv2	achv2				
@@ -88,30 +98,14 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	:) smily face cursor in Clone	clo	1	6	sachv2	achv3				
 	Soda Connaisseur: Drink all sodas		1	4	sodaachv	achv3				
 	Get a bonus soda		1	5	sodaachv	achv3				
-	Expert fire alarmist: Pull enough fire alarms	x	1	8	sachv1	achv3				
+	Expert fire alarmist: Pull enough fire alarms (10)	x	1	8	sachv1	achv3				
 										
-	Optical: Table Constellation	opt	1	10	coll,coll2	scon2				
-	Labyrinth: Light Projector Constellation	lab,longlab	1	27	coll,coll2	scon2				
-	Clone: Soda Machine Constellation	clo	1	13	coll,coll2	scon2				
 										
 	3 Constellations		1	5	cnta	scon2	cntcon			
 	15 fire extinguishers		1	5	cnta		cntext			
 	12 fire alarms		1	4	cnta		cntalm			
 	5 chess pieces		1	12	cnta		cntche			
 ch	4 mini challenges in challenge mode	ind	1	10	cnta	sch	cntch			
-										
-	Blackout: Both Blue Pawns	bla,longbla	1	18	longchess	sche2				
-	Blackout: Blue Pawn #1 (blind maze)	bla,longbla	1	13	longchess	sche2				
-	Blackout: Blue Pawn #2 (window)	bla,longbla	1	18	longchess	sche2				
-	Optical: Red Rook	opt	1	8	coll,coll2	sche2				
-	Labyrinth: Red Pawn	lab	1	14	longchess	sche2				
-	Labyrinth: Blue King	lab,longlab	1	24	longchess	sche2				
-										
-	Clone Egg (end)	clo,longclo	1	15	coll,coll2	segg2				
-	Labyrinth Egg #2 (HALL 5)	longlab	1	20	coll,coll2	segg2				
-	Labyrinth Egg #3 (dropdown)	longlab	1	20	coll,coll2	segg2				
-	Optical: Blue Knight	opt,longopt	1	12	coll,coll2	sche2				
-	Dollhouse: Blue King	dol	1	10	coll,coll2	sche2				
 										
 	All minor collectibles in Optical	opt	1	10	1level		amc			
 	All minor collectibles in Cubism	cub	1	10	1level		amc			
