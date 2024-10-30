@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SLBingoBoardGen - All Goals</title>
-    <script src="/ran.min.js"></script>
-    <link rel="stylesheet" href="/css/pico.min.css" />
-    <link rel="stylesheet" href="/my.css" />
+    <script src="../ran.min.js"></script>
+    <link rel="stylesheet" href="../css/pico.min.css" />
+    <link rel="stylesheet" href="../my.css" />
     <script>
       var data = [];
       var gencats = [];
       // const gencats = [...new Set(data.map(x => x.gencat).flat().filter(x => x !== ""))];
 
       async function load_data() {
-        const response = await fetch("/Bingo Design.csv");
+        const response = await fetch("../Bingo Design.csv");
         const text = await response.text();
         data = text
           .split("\n")
