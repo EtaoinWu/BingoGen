@@ -112,7 +112,7 @@ ch	4 mini challenges in challenge mode 		10	cnta	sch	cntch
 	Labyrinth Egg #2 (HALL 5) 	longlab	20		segg2				
 	Labyrinth Egg #3 (dropdown) 	longlab	20		segg2				
 	Optical: Blue Knight 	opt,longopt	12		sche2				
-	Dollhouse: Blue Pawn 	dol	10		sche2				
+	Dollhouse: Blue King 	dol	10		sche2				
 									
 	All minor collectibles in Optical 	opt	10			amc			
 	All minor collectibles in Cubism 	cub	10			amc			

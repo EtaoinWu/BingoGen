@@ -1,0 +1,39 @@
+#board_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#board_table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#board_table tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+#board_table tr td.highlight {
+    background-color: #fdfd88;
+}
+#board_table tr td.diagonal {
+    font-weight: bold;
+    background-color: #aaaaaa;
+}
+#board_table tr td.diagonal.highlight {
+    background-color: #bbbb88;
+}
+#board_table tr td.col_header {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+#board_table tr td.col_header.highlight {
+    background-color: #dddd88;
+}
+#board_table tr td.row_header {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+#board_table tr td.row_header.highlight {
+    background-color: #dddd88;
+}
+
