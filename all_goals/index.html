@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLBingoBoardGen - All Goals</title>
+    <script src="/ran.min.js"></script>
+    <link rel="stylesheet" href="/css/pico.min.css" />
+    <link rel="stylesheet" href="/my.css" />
+    <script>
+      var data = [];
+      var gencats = [];
+      // const gencats = [...new Set(data.map(x => x.gencat).flat().filter(x => x !== ""))];
+
+      async function load_data() {
+        const response = await fetch("/Bingo Design.csv");
+        const text = await response.text();
+        data = text
+          .split("\n")
+          .map((x) => {
+            if (x.trim() === "") {
+              return null;
+            }
+            let [ban, name, level, weight, time, gencat, sad, ...conflict] =
+              x.split("\t");
+            if (name === "1" || name === "name") {
+              return null;
+            }
+            return {
+              ban: ban.split(",").filter((z) => z != ""),
+              name: name,
+              level: level.split(",").filter((z) => z != ""),
+              weight: parseFloat(weight),
+              time: parseFloat(time),
+              gencat: gencat.split(",").filter((z) => z != ""),
+              sad: sad.split(",").filter((z) => z != ""),
+              conflict: conflict
+                .map((z) => z.split(","))
+                .flat()
+                .filter((z) => z != ""),
+            };
+          })
+          .filter((x) => x !== null);
+        gencats = [
+          ...new Set(
+            data
+              .map((x) => x.gencat)
+              .flat()
+              .filter((x) => x !== "")
+          ),
+        ];
+      }
+
+      async function show_data() {
+        const tbody = document.querySelector("#all_goals tbody");
+        tbody.innerHTML = "";
+        for (let goal of data) {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${goal.name}</td>
+            <td>${goal.time}</td>
+          `;
+          tbody.appendChild(tr);
+        }
+      }
+
+      async function main() {
+        await load_data();
+        return show_data();
+      }
+
+      main();
+    </script>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Superliminal Bingo Board Generator</h1>
+      <div>
+        <a href="/">Back to Generator</a>
+      </div>
+      <div id="all_goals">
+        <table>
+          <thead>
+            <tr>
+              <th>Goal</th>
+              <th>Time/10s</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
