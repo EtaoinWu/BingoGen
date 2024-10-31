@@ -98,7 +98,7 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	:) smily face cursor in Clone	clo	1	6	sachv2	achv3				
 	Soda Connaisseur: Drink all sodas		1	4	sodaachv	achv3				
 	Get a bonus soda		1	5	sodaachv	achv3				
-	Expert fire alarmist: Pull enough fire alarms (10)	x	1	8	sachv1	achv3				
+	Expert fire alarmist: Pull enough fire alarms (10)	x	1	8	sachv1	achv3	cntalm			
 										
 										
 	3 Constellations		1	5	cnta	scon2	cntcon			
@@ -130,14 +130,14 @@ ch	Challenge Mode Blackout		1	22	torture
 	Make your screen completely black in a level		1	5	sachv1		trueblack			
 	Keep falling (sound) for 20 seconds		1	4	sachv2		trueblack			
 										
-	Jumpless: Any level without jumping (not retro)		1	6	torture	catext				
-	Back%: Any level but you can only walk backwards (not retro)		1	10	torture	catext				
-	Crab%: Any level but you can only walk left or right (not retro)		1	10	torture	catext				
+	Jumpless (oob): Any level without jumping (not retro)		1	6	torture	catext		jless		
+	Back%: Any level but you can only walk backwards (not retro)		1	10	torture	catext		back		
+	Crab%: Any level but you can only walk left or right (not retro)		1	10	torture	catext		crab		
 	Mouse%: Any level with only a mouse (not retro)		1	12	torture	catext				
 										
-	Jumpless Glitchless: Any level (not retro)		1	20	torture	catext				
-	Back% Glitchless: Any level (not retro)		1	15	torture	catext				
-	Crab% Glitchless: Any level (not retro)		1	15	torture	catext				
+	Jumpless Inbound: Any level (not retro)		1	20	torture	catext		jless		
+	Back% Glitchless: Any level (not retro)		1	15	torture	catext		back		
+	Crab% Glitchless: Any level (not retro)		1	15	torture	catext		crab		
 										
 	All Easter Eggs in Optical & Labyrinth	longlab,longopt	1	30	nm					
 	Superluminal: Beat the game in under 30 minutes		1	45	nm					
