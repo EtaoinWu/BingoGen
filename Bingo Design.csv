@@ -130,7 +130,7 @@ ch	Challenge Mode Blackout		1	22	torture
 	Make your screen completely black in a level		1	5	sachv1		trueblack			
 	Keep falling (sound) for 20 seconds		1	4	sachv2		trueblack			
 										
-	Jumpless (oob): Any level without jumping (not retro)		1	6	torture	catext		jless		
+	Jumpless (oob): Any level (not retro)		1	6	torture	catext		jless		
 	Back%: Any level but you can only walk backwards (not retro)		1	10	torture	catext		back		
 	Crab%: Any level but you can only walk left or right (not retro)		1	10	torture	catext		crab		
 	Mouse%: Any level with only a mouse (not retro)		1	12	torture	catext				
