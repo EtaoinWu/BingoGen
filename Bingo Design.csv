@@ -37,9 +37,10 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Induction: Blueprint	ind,longind	1	10	bp,coll2	sble2				
 	Optical: Blueprint #1 (exit sign ramp)	opt	1	4	bp,coll2	sble2				
 	Optical: Blueprint #2 (moon room)	opt,longopt	1	14	bp,coll2	sble2				
-	Cubism: Any blueprint	cub	1	6.5	bp,coll2	sble1			bp_cub1	bp_cub2
+	Cubism: Any blueprint	cub	1	4.5	bp,coll2	sble1			bp_cub1	
+	Cubism: Blue blueprints	cub	1	6.5	bp,coll2	sble1			bp_cub1	
 	Cubism: Blueprint #1 (ventilation)	cub	1	6	bp,coll2	sble1			bp_cub1	
-	Cubism: Blueprint #2 (end)	cub	1	4.5	bp,coll2	sble1				bp_cub2
+	Cubism: Blueprint #2 (end)	cub	1	4.5	bp,coll2	sble1			bp_cub1	
 	Blackout: Blueprint	bla	1	15	bp,coll2	sble1				
 	Dollhouse: 1 Blueprint	dol	1	10	bp,coll2	sble1				bp_dol
 	Dollhouse: 2 Blueprints	dol,longdol	1	14	bp,coll2	sble1				bp_dol
@@ -68,6 +69,7 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	A banana (Clone)	clo,longclo	1	11	fun					
 	A Spintop (Whitespace)	whi,longwhi	1	10	fun					
 	A shiny banana (Whitespace)	whi	1	6	fun					
+	Avocado (in Dollhouse secret room)	dol	1	6	fun					
 	Play the piano (Dollhouse)	dol,longdol	1	14	fun					
 										
 	Wake Up: Entirety of Retrospect cutscene		1	20	torture					
@@ -144,6 +146,6 @@ ch	Challenge Mode Blackout		1	22	torture
 	52 fire alarms		1	30	nm		cntalm			
 	69 fire extinguishers		1	30	nm		cntext			
 	All 7 constellations		1	30	nm		cntcon			
-	Avocado (in Dollhouse secret room)		1	40	nm		cntble			
+	All 15 blueprints		1	6	nm		cntble			
 ch	25 mini challenges in challenge mode		1	65	nm		cntch			
 	Kasparov: Make the last move		1.5	40	nm		cntche			
