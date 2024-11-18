@@ -109,7 +109,7 @@
       let seed = Math.floor(Math.random() * 100000000);
       let board_matrix = [];
 
-      let bias = 0.6;
+      let bias = 0.5;
 
       let ban_ch = false;
 
@@ -266,7 +266,7 @@
         output_str = "Output Here";
         gen_length = "medium";
         seed = Math.floor(Math.random() * 100000000);
-        bias = 0.6;
+        bias = 0.5;
         ban_ch = false;
         bans = [];
         pred_length = 0;
@@ -364,7 +364,7 @@
         }
       }
 
-      const bias_cast = { short: -0.2, medium: 0.6, long: 1.4 };
+      const bias_cast = { short: -0.2, medium: 0.5, long: 1.4 };
 
       function generate_board_preview() {
         if (board_matrix.length == 0) {
@@ -500,7 +500,7 @@
         <label for="gen_length">Length</label>
         <select id="gen_length" required onchange="downupdate()">
           <option value="short">Short (bias -0.2)</option>
-          <option value="medium">Medium (bias 0.6)</option>
+          <option value="medium">Medium (bias 0.5)</option>
           <option value="long">Long (bias 1.4)</option>
           <option value="custom">Custom Bias...</option>
         </select>

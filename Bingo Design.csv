@@ -10,8 +10,8 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	1 Constellation + 1 Blueprint		1	3	1p1			1p1		
 	1 Blueprint + 1 Egg		1	2	1p1			1p1		
 										
-	All the extinguishers in any level	whi	1	5	1level			an1		
-	All the alarms in any level	whi	1	5	1level			an1		
+	All the extinguishers in any level	whi	1	5	cnta			an1		
+	All the alarms in any level	whi	1	5	cnta			an1		
 	Please recycle: Put a soda can in the wrong place		1	1	sodaachv					
 	Environment saved!: Place a soda can in a recycling bin		1	1	sodaachv					
 										
@@ -20,17 +20,17 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Optical: Red Rook	opt	1	8	coll,coll2	sche2				
 	Cubism: Red Queen	cub	1	5	coll,coll2	sche1				cqk
 	Cubism: Red King	cub	1	5	coll,coll2	sche1				cqk
-	Blackout: Both Blue Pawns	bla,longbla	1	18	longchess	sche2			c_bla1	c_bla2
+	Blackout: Both Blue Pawns	bla,longbla	1	18	longchess,xlong	sche2			c_bla1	c_bla2
 	Blackout: Blue Pawn #1 (blind maze)	bla,longbla	1	13	longchess	sche2			c_bla1	
-	Blackout: Blue Pawn #2 (window)	bla,longbla	1	18	longchess	sche2				c_bla2
+	Blackout: Blue Pawn #2 (window)	bla,longbla	1	18	longchess,xlong	sche2				c_bla2
 	Clone: Any chess piece	clo	1	7	coll,coll2	sche			c_clo1	c_clo2
 	Clone: Blue Pawn	clo	1	7	coll,coll2	sche			c_clo1	
 	Clone: Red Knight	clo	1	10	coll,coll2	sche				c_clo2
 	Dollhouse: Blue King	dol	1	10	coll,coll2	sche2				
 	Labyrinth: Red Pawn	lab	1	14	longchess	sche2				
-	Labyrinth: Blue King	lab,longlab	1	24	longchess	sche2				
+	Labyrinth: Blue King	lab,longlab	1	20	longchess,xlong	sche2				
 	Whitespace: Blue Pawn (Jungles' Bistro)	whi	1	2.5	coll,coll2	sche1				
-	Whitespace: Blue Rook (vending machine)	whi	1	1.7	coll,coll2	sche1				
+	Whitespace: Blue Rook (vending machine)	whi	1	2	coll,coll2	sche1				
 	Whitespace: Red Pawn (end)	whi	1	4.5	coll,coll2	sche				
 	A king & a queen	cub	1	6	coll,coll2					cqk
 										
@@ -45,16 +45,16 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Dollhouse: 1 Blueprint	dol	1	10	bp,coll2	sble1				bp_dol
 	Dollhouse: 2 Blueprints	dol,longdol	1	14	bp,coll2	sble1				bp_dol
 	Labyrinth: 1 Blueprint	lab,longlab	1	18	bp,coll2	sble1			bp_lab	
-	Labyrinth: 2 Blueprints	lab,longlab	1	22	bp,coll2	sble2			bp_lab	
+	Labyrinth: 2 Blueprints	lab,longlab	1	22	bp,coll2,xlong	sble2			bp_lab	
 	Whitespace: 1 Blueprint	whi	1	2.6	bp,coll2	sble2				bp_whi
 	Whitespace: 2 Blueprints	whi	1	4.5	bp,coll2	sble2				bp_whi
 										
 	Optical Egg #1 (hallway)	opt	1	3	egg	segg				
 	Optical Egg #2 (exit sign ramp)	opt	1	4	egg	segg				
 	Cubism Egg	cub	1	2	egg	segg				
-	Clone Egg (end)	clo,longclo	1	15	coll,coll2	segg2				
-	Labyrinth Egg #2 (HALL 5)	longlab	1	20	coll,coll2	segg2				
-	Labyrinth Egg #3 (dropdown)	longlab	1	20	coll,coll2	segg2				
+	Clone Egg (end)	clo,longclo	1	15	coll,coll2,xlong	segg2				
+	Labyrinth Egg #2 (HALL 5)	longlab	1	20	coll,coll2,xlong	segg2				
+	Labyrinth Egg #3 (dropdown)	longlab	1	20	coll,coll2,xlong	segg2				
 	Whitespace Egg :pain:	whi	1	4	egg	segg				
 										
 	Optical: Table Constellation	opt	1	10	cons,coll2	scon2				
@@ -62,7 +62,7 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Blackout: Cheese Constellation	bla	1	3	cons	scon				
 	Clone: Soda Machine Constellation	clo	1	13	cons,coll2	scon2				
 	Dollhouse: Chair Constellation	dol	1	4	cons	scon				
-	Labyrinth: Light Projector Constellation	lab,longlab	1	27	cons,coll2	scon2				
+	Labyrinth: Light Projector Constellation	lab,longlab	1	27	cons,coll2,xlong	scon2				
 	Whitespace: Piano Constellation	whi	1	7	cons	scon				
 										
 	A duck (Cubism)	cub	1	6	fun					
@@ -89,8 +89,8 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Complete Blackout Glitchlessly	longbla	1	17	1level	gless	fbla			
 	Complete Clone Glitchlessly	longclo	1	14	1level	gless	fclo			
 	Complete Dollhouse Glitchlessly	longdol	1	14	1level	gless	fdol			
-	Complete Labyrinth Glitchlessly	longlab	1	24	1level	gless	flab			
-	Complete Whitespace Glitchlessly	longwhi	1	30	1level	gless	fwhi			
+	Complete Labyrinth Glitchlessly	longlab	1	24	1level,xlong	gless	flab			
+	Complete Whitespace Glitchlessly	longwhi	1	30	1level,xlong	gless	fwhi			
 										
 	Why are you like this?: Clone an item too many times	clo	1	10	sachv1,torture	achv2				
 	Sugar crash: Break a soda can		1	2	sodaachv	achv2				
@@ -99,7 +99,7 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 										
 	:) smily face cursor in Clone	clo	1	6	sachv2	achv3				
 	Soda Connaisseur: Drink all sodas		1	4	sodaachv	achv3				
-	Get a bonus soda		1	5	sodaachv	achv3				
+	Get a bonus soda		0.2	5	sodaachv	achv3				
 	Expert fire alarmist: Pull enough fire alarms (10)	x	1	8	sachv1	achv3	cntalm			
 										
 										
@@ -128,7 +128,7 @@ ch	9 mini challenges in challenge mode		1	14	cntb		cntch
 	1 Piece of each type (KQRNp)		1	15	speche		speche			
 										
 	Bring the :pain: egg to the end of Whitespace		1	16	torture					
-ch	Challenge Mode Blackout		1	22	torture					
+ch	Challenge Mode Blackout		1	22	torture,xlong					
 	Make your screen completely black in a level		1	5	sachv1		trueblack			
 	Keep falling (sound) for 20 seconds		1	4	sachv2		trueblack			
 										
@@ -143,9 +143,9 @@ ch	Challenge Mode Blackout		1	22	torture
 										
 	All Easter Eggs in Optical & Labyrinth	longlab,longopt	1	25	nm					
 	Superluminal: Beat the game in under 30 minutes		1	45	nm					
-	52 fire alarms		1	40	nm		cntalm			
-	69 fire extinguishers		1	40	nm		cntext			
-	All 7 constellations		1	30	nm		cntcon			
-	All 15 blueprints		1	35	nm		cntble			
-ch	25 mini challenges in challenge mode		1	55	nm		cntch			
-	Kasparov: Make the last move		1.5	40	nm		cntche			
+	52 fire alarms		1	40	nm,xlong		cntalm			
+	69 fire extinguishers		1	40	nm,xlong		cntext			
+	All 7 constellations		1	30	nm,xlong		cntcon			
+	All 15 blueprints		1	35	nm,xlong		cntble			
+ch	25 mini challenges in challenge mode		1	55	nm,xlong		cntch			
+	Kasparov: Make the last move		1.5	40	nm,xlong		cntche			
