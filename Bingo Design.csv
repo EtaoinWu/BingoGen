@@ -141,11 +141,11 @@ ch	Challenge Mode Blackout		1	22	torture
 	Back% Glitchless: Any level (not retro)		1	15	torture	catext		back		
 	Crab% Glitchless: Any level (not retro)		1	15	torture	catext		crab		
 										
-	All Easter Eggs in Optical & Labyrinth	longlab,longopt	1	30	nm					
+	All Easter Eggs in Optical & Labyrinth	longlab,longopt	1	25	nm					
 	Superluminal: Beat the game in under 30 minutes		1	45	nm					
-	52 fire alarms		1	30	nm		cntalm			
-	69 fire extinguishers		1	30	nm		cntext			
+	52 fire alarms		1	40	nm		cntalm			
+	69 fire extinguishers		1	40	nm		cntext			
 	All 7 constellations		1	30	nm		cntcon			
-	All 15 blueprints		1	6	nm		cntble			
-ch	25 mini challenges in challenge mode		1	65	nm		cntch			
+	All 15 blueprints		1	35	nm		cntble			
+ch	25 mini challenges in challenge mode		1	55	nm		cntch			
 	Kasparov: Make the last move		1.5	40	nm		cntche			
