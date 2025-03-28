@@ -28,7 +28,7 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Clone: Red Knight	clo	1	10	coll,coll2	sche				c_clo2
 	Dollhouse: Blue King	dol	1	10	coll,coll2	sche2				
 	Labyrinth: Red Pawn	lab	1	14	longchess	sche2				
-	Labyrinth: Blue King	lab,longlab	1	20	longchess,xlong	sche2				
+	Labyrinth: Blue Queen	lab,longlab	1	20	longchess,xlong	sche2				
 	Whitespace: Blue Pawn (Jungles' Bistro)	whi	1	2.5	coll,coll2	sche1				
 	Whitespace: Blue Rook (vending machine)	whi	1	2	coll,coll2	sche1				
 	Whitespace: Red Pawn (end)	whi	1	4.5	coll,coll2	sche				
@@ -38,7 +38,7 @@ Ban	name	level	weight	Time/10s	gencat	sadness	conflict	c2	c3	c4
 	Optical: Blueprint #1 (exit sign ramp)	opt	1	4	bp,coll2	sble2				
 	Optical: Blueprint #2 (moon room)	opt,longopt	1	14	bp,coll2	sble2				
 	Cubism: Any blueprint	cub	1	4.5	bp,coll2	sble1			bp_cub1	
-	Cubism: Blue blueprints	cub	1	6.5	bp,coll2	sble1			bp_cub1	
+	Cubism: Both blueprints	cub	1	6.5	bp,coll2	sble1			bp_cub1	
 	Cubism: Blueprint #1 (ventilation)	cub	1	6	bp,coll2	sble1			bp_cub1	
 	Cubism: Blueprint #2 (end)	cub	1	4.5	bp,coll2	sble1			bp_cub1	
 	Blackout: Blueprint	bla	1	15	bp,coll2	sble1				
